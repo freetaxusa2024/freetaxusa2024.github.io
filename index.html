@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="title" content="FreeTaxUSA 2024 - Your Trusted Online Tax Filing Partner">
+<meta name="description" content="Trust FreeTaxUSA 2024 for free, easy, and accurate online tax filing. Get maximum refunds with no hidden costs.">
+<meta name="keywords" content="freetaxusa 2024">
+<meta name="author" content="freetaxusa 2024">
+<meta name="robots" content="index, follow">
+
+<link rel="icon" href="logo.png" type="image/png">
+
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <title>FreeTaxUSA 2024 - Your Trusted Online Tax Filing Partner</title>
+    
+    <style>
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: #eaeaea;
+            overflow-x: hidden;
+        }
+        nav {
+            width: 100%;
+            background-color: #333;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .logo img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+        .logo span {
+            color: #0850c4 ;
+            font-size: 24px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+        .nav-links {
+            list-style: none;
+            display: flex;
+            align-items: center;
+        }
+        .nav-links li {
+            margin: 0 15px;
+            position: relative;
+        }
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+        .nav-links a:hover {
+            color: #0850c4 ;
+        }
+        .burger {
+            display: none;
+            cursor: pointer;
+            flex-direction: column;
+            gap: 5px;
+        }
+        .burger div {
+            width: 30px;
+            height: 3px;
+            background-color: #fff;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+        .burger.active .line1 {
+            transform: rotate(-45deg) translate(-5px, 6px);
+        }
+        .burger.active .line2 {
+            opacity: 0;
+        }
+        .burger.active .line3 {
+            transform: rotate(45deg) translate(-5px, -6px);
+        }
+        @media screen and (max-width: 768px) {
+            .nav-links {
+                display: none;
+                flex-direction: column;
+                width: 100%;
+                background-color: #333;
+                position: absolute;
+                top: 60px;
+                left: 0;
+                z-index: 1;
+                border-radius: 0 0 12px 12px;
+                padding: 10px 0;
+            }
+            .nav-links.nav-active {
+                display: flex;
+            }
+            .nav-links li {
+                text-align: center;
+                padding: 10px 0;
+            }
+            .burger {
+                display: flex;
+            }
+        }
+        .banner {
+    margin-top: 70px;
+    width: 100%;
+    height: 90vh;
+    background: url('freetax-banner.png') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    padding: 0 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Adjust opacity here */
+}
+
+.banner div {
+    position: relative;
+    z-index: 1;
+}
+
+        .banner h1 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            animation: fadeInDown 1s ease forwards;
+            letter-spacing: 1px;
+        }
+        .banner p {
+            font-size: 1rem;
+            margin-bottom: 30px;
+            animation: fadeInUp 1s ease forwards;
+        }
+        .btn {
+            padding: 15px 30px;
+            font-size: 2.3rem;
+            color: #fff;
+            background-color: #0850c4 ;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+            animation: fadeIn 2s ease forwards;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        .btn:hover {
+            background-color: #0850c4 ;
+            transform: scale(1.05);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+        }
+        @keyframes fadeInDown {
+            0% {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        .about {
+            width: 100%;
+            padding: 60px 20px;
+            background-color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            animation: fadeIn 2s ease forwards;
+        }
+        .about h2 {
+            font-size: 2.8rem;
+            color: #333;
+            margin-bottom: 25px;
+        }
+        .about p {
+            font-size: 1.2rem;
+            color: #555;
+            max-width: 900px;
+            line-height: 1.8;
+        }
+
+        .custom-list .list-group-item {
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 10px;
+            border-left: 5px solid #0850c4 ;
+            transition: all 0.3s ease-in-out;
+            display: flex;
+            align-items: center;
+            font-weight: 500;
+            font-size: 18px;
+            padding: 15px;
+        }
+
+        /* Hover Effect with Gradient */
+        .custom-list .list-group-item:hover {
+            background: linear-gradient(135deg, #007bff, #0056b3);
+            color: white;
+            transform: scale(1.03);
+            border-left: 5px solid  #0850c4 ;
+        }
+
+        /* Icon Styling */
+        .list-icon {
+            font-size: 22px;
+            margin-right: 15px;
+            color: #0850c4 ;
+            transition: color 0.3s ease-in-out;
+        }
+
+        /* Change icon color on hover */
+        .custom-list .list-group-item:hover .list-icon {
+            color:  #0850c4 ;
+        }
+
+        /* Left Align Content */
+        .custom-list .text-content {
+            flex-grow: 1;
+            text-align: left;
+        }
+
+        .support-section {
+            background: #f8f9fa;
+            padding: 60px 20px;
+        }
+
+        .support-container {
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .support-card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            transition: all 0.3s ease-in-out;
+            border-left: 5px solid #0850c4 ;
+        }
+
+        .support-card:hover {
+            transform: translateY(-5px);
+            background: linear-gradient(135deg, #007bff, #0056b3);
+            color: white;
+            border-left: 5px solid  #0850c4 ;
+        }
+
+        .support-card:hover .support-icon {
+            color:  #0850c4 ;
+        }
+
+        .support-icon {
+            font-size: 40px;
+            color: #0850c4 ;
+            margin-bottom: 15px;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .support-title {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .support-text {
+            font-size: 16px;
+        }
+
+        @media (max-width: 768px) {
+            .support-card {
+                margin-bottom: 20px;
+            }
+        }
+
+        .issues-section {
+            background: black;
+            padding: 60px 20px;
+        }
+
+        .issues-container {
+            max-width: 1000px;
+            margin: auto;
+        }
+        .issue-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 180px; /* Set a fixed height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+        .issue-card:hover {
+            transform: translateY(-5px);
+            background: linear-gradient(135deg,  #0850c4 ,  #0850c4 );
+            color: white;
+            border-left: 5px solid  #0850c4 ;
+        }
+
+        .issue-card:hover .issue-icon {
+            color:  #0850c4 ;
+        }
+
+        .issue-icon {
+    font-size: 30px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+        .issue-title {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 10px;
+            
+        }
+
+        .issue-text {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    text-align: left;
+}
+
+        @media (max-width: 768px) {
+            .issue-card {
+                margin-bottom: 20px;
+            }
+        }
+
+    </style>
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="#" style="text-decoration: none;"><img src="logo.png" alt="Logo">
+            <span>   freetaxusa 2024</span>
+        </div></a>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+    <div class="banner">
+        <div>
+            <h1>FreeTaxUSA 2024 -  Your Trusted Online Tax Filing Partner
+            </h1>
+            <p>Trust FreeTaxUSA 2024 for free, easy, and accurate online tax filing. Get maximum refunds with no hidden costs. </p>
+            <button class="btn">FILED YOUR TAX TODAY</button>
+        </div>
+    </div>
+    <div class="about">
+        <h2>GET TO KNOW US</h2>
+        <p>FreeTaxUSA 2024 is a reliable and affordable online tax filing service that offers free federal tax filing for all users as well as low-cost state tax filing options. It supports a wide range of tax situations, including self-employment, investments, and rental income, making it suitable for a variety of taxpayers. The platform is approved by the IRS, ensuring fast and secure e-filing while guaranteeing maximum refunds and 100% accuracy.</p>
+    </div>
+
+
+    <div class="container mt-5">
+        <center><h3 class="mb-4" style="font-size: 38px;">How does FreeTaxUSA 2024 help with tax preparation?</h3></center>
+        <ul class="list-group custom-list">
+            <li class="list-group-item d-flex">
+                <i class="fas fa-globe list-icon"></i>
+                <span class="text-content">1. Offers free assistance with federal tax filing and affordable state filing.
+                </span>
+            </li>
+            <li class="list-group-item d-flex">
+                <i class="fas fa-phone list-icon"></i>
+                <span class="text-content">2. Provides automated calculations to minimize errors.</span>
+            </li>
+            <li class="list-group-item d-flex">
+                <i class="fas fa-comments list-icon"></i>
+                <span class="text-content">3. Imports previous tax year data for faster filing.</span>
+            </li>
+            <li class="list-group-item d-flex">
+                <i class="fas fa-users list-icon"></i>
+                <span class="text-content">4. Identifies deductions and credits to maximize refunds.</span>
+            </li>
+            <li class="list-group-item d-flex">
+                <i class="fab fa-facebook-messenger list-icon"></i>
+                <span class="text-content">5. Offers free e-filing and IRS direct submission.</span>
+            </li>
+            <li class="list-group-item d-flex">
+                <i class="fas fa-envelope list-icon"></i>
+                <span class="text-content">6. Includes audit assistance for additional support.
+                </span>
+            </li>
+            <li class="list-group-item d-flex">
+                <i class="fas fa-question-circle list-icon"></i>
+                <span class="text-content">7. Allows access to past returns for easy reference.</span>
+            </li>
+            <li class="list-group-item d-flex">
+                <i class="fas fa-laptop-code list-icon"></i>
+                <span class="text-content">8. Offers live customer support for tax-related questions.</span>
+            </li>
+          
+        </ul>
+    </div>
+
+    <section class="support-section">
+        <div class="container support-container">
+            <h2 class="text-center mb-5">What features does FreeTaxUSA 2024 offer for easy tax filing?</h2>
+            
+            <div class="row">
+                <!-- Phone Support -->
+                <div class="col-md-4">
+                    <div class="support-card">
+                        <i class="fas fa-phone support-icon"></i>
+                        <div class="support-title">Free federal tax filing</div>
+                        <p class="support-text">Get affordable state filing options</p>
+                    </div>
+                </div>
+    
+                <!-- Live Chat Support -->
+                <div class="col-md-4">
+                    <div class="support-card">
+                        <i class="fas fa-comments support-icon"></i>
+                        <div class="support-title">Automatic Error Checking</div>
+                        <p class="support-text">Checking to prevent mistakes.</p>
+                    </div>
+                </div>
+    
+                <!-- Email Support -->
+                <div class="col-md-4">
+                    <div class="support-card">
+                        <i class="fas fa-envelope support-icon"></i>
+                        <div class="support-title">Deduction</div>
+                        <p class="support-text">Credit Finder to maximize refunds.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+        <style>
+            body {
+                background-color: #c0cfdf;
+            }
+            .income-section {
+                max-width: 900px;
+                margin: 50px auto;
+            }
+            .income-card {
+                height: 100%;
+                transition: transform 0.3s ease-in-out;
+            }
+            .income-card:hover {
+                transform: scale(1.05);
+            }
+            .card-body {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+        </style>
+
+        <div class="container income-section">
+            <h2 class="text-center text mb-4" style="color: #333;">Can I use FreeTaxUSA 2024 if I have multiple income sources?</h2>
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                    <div class="card income-card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-briefcase"></i>1.  W-2 Income</h5>
+                            <p class="card-text">Supports income from multiple jobs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card income-card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-receipt"></i>2.  1099-NEC & 1099-K</h5>
+                            <p class="card-text">Handles self-employment, freelance, and gig work.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card income-card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-chart-line"></i>3.  Investment Income</h5>
+                            <p class="card-text">Includes stocks, dividends, 1099-B, and 1099-DIV.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card income-card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-home"></i>4.  Rental Income</h5>
+                            <p class="card-text">Covers rental properties (Schedule E).</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card income-card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-piggy-bank"></i>5.  Retirement Income</h5>
+                            <p class="card-text">Supports Social Security, 401(k), and pensions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card income-card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-building"></i>6.  Business Income</h5>
+                            <p class="card-text">Manages self-employed business income (Schedule C).</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card income-card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-tractor"></i>7.  Farm Income</h5>
+                            <p class="card-text">Handles farm-related earnings (Schedule F).</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card income-card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-hand-holding-usd"></i>8.  Other Income</h5>
+                            <p class="card-text">Includes alimony and other miscellaneous earnings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    
+
+    <!-- Common QuickBooks Issues Section -->
+<section class="issues-section">
+    <div class="container issues-container">
+        <h2 class="text-center mb-5" style="color:white;">How long does it take to receive my tax refund with FreeTaxUSA 2024?</h2>
+        
+        <div class="row">
+            <!-- Issue 1 -->
+            <div class="col-md-4">
+                <div class="issue-card">
+                    <i class="fas fa-exclamation-circle issue-icon"></i>
+                
+                    <p class="issue-text">1. If you choose direct deposit, you will receive your refund within 10 to 21 days after the IRS approves it.</p>
+                </div>
+            </div>
+
+            <!-- Issue 2 -->
+            <div class="col-md-4">
+                <div class="issue-card">
+                    <i class="fas fa-sync-alt issue-icon"></i>
+            
+                    <p class="issue-text">2. If you choose a paper check, it may take 4 to 6 weeks to arrive.</p>
+                </div>
+            </div>
+
+            <!-- Issue 3 -->
+            <div class="col-md-4">
+                <div class="issue-card">
+                    <i class="fas fa-file-invoice issue-icon"></i>
+            
+                    <p class="issue-text">3. If you use a refund transfer, it may take 1 to 2 additional days after the IRS approves your refund.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <!-- Issue 4 -->
+            <div class="col-md-4">
+                <div class="issue-card">
+                    <i class="fas fa-bug issue-icon"></i>
+                    
+                    <p class="issue-text">4. E-filing with FreeTaxUSA 2024 is faster than mailing a paper return.</p>
+                </div>
+            </div>
+
+            <!-- Issue 5 -->
+            <div class="col-md-4">
+                <div class="issue-card">
+                    <i class="fas fa-user-lock issue-icon"></i>
+
+                    <p class="issue-text">5. Refunds may take longer if the IRS needs to audit your return, especially for the Earned Income Tax Credit (EITC) or Additional Child Tax Credit (ACTC).</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<style>
+    
+    .faq-container {
+        max-width: 800px;
+        margin: 50px auto;
+    }
+</style>
+
+
+<div class="container faq-container">
+<h2 class="text-center mb-4">Frequently Asked Questions</h2>
+<div class="accordion" id="faqAccordion">
+    
+    <!-- Question 1 -->
+    
+        <!-- Question 1 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                    Is FreeTaxUSA really free?
+                </button>
+            </h2>
+            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Yes! FreeTaxUSA offers free federal tax filing for most users. However, there may be a fee for state tax filing and additional services like priority assistance or audit assistance.
+                </div>
+            </div>
+        </div>
+    
+        <!-- Question 2 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                    Can I file my state taxes with FreeTaxUSA?
+                </button>
+            </h2>
+            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Yes, FreeTaxUSA allows you to file state taxes for an additional fee. The cost varies depending on the state.
+                </div>
+            </div>
+        </div>
+    
+        <!-- Question 3 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                    How long does it take to receive my refund with FreeTaxUSA?
+                </button>
+            </h2>
+            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    - <strong>Direct deposit:</strong> 10 to 21 days after IRS approval. <br>
+                    - <strong>Paperwork verification:</strong> 4 to 6 weeks. <br>
+                    - <strong>Refund transfer:</strong> This may take an additional 1 to 2 days.
+                </div>
+            </div>
+        </div>
+    
+        <!-- Question 4 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                    Does FreeTaxUSA support previous year tax returns?
+                </button>
+            </h2>
+            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Yes, you can file previous year tax returns using FreeTaxUSA, including amendments if needed.
+                </div>
+            </div>
+        </div>
+    
+        <!-- Question 5 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                    Can I import my W-2 and 1099 forms into FreeTaxUSA?
+                </button>
+            </h2>
+            <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Yes, FreeTaxUSA allows you to manually enter W-2 and 1099 information, but it does not support automatic import.
+                </div>
+            </div>
+        </div>
+    
+        <!-- Question 6 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6">
+                    Does FreeTaxUSA support self-employed and freelance income?
+                </button>
+            </h2>
+            <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Yes! FreeTaxUSA supports self-employed filers, including Schedule C for freelance, gig work, and business income.
+                </div>
+            </div>
+        </div>
+    
+        <!-- Question 7 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq7">
+                    Can I amend my tax return with FreeTaxUSA?
+                </button>
+            </h2>
+            <div id="faq7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Yes, you can amend your federal and state returns using FreeTaxUSA, usually for a small fee.
+                </div>
+            </div>
+        </div>
+    
+        <!-- Question 8 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq8">
+                    Is FreeTaxUSA safe and secure?
+                </button>
+            </h2>
+            <div id="faq8" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Absolutely. FreeTaxUSA uses advanced encryption and security measures to protect your sensitive tax information.
+                </div>
+            </div>
+        </div>
+    
+    
+</div>
+</div>
+
+
+
+
+<div class="text-center mt-0" style="background: #222; color: white; padding: 15px;">
+    <p class="mb-0">© 2025 freetaxusa 2024 | All Rights Reserved.</p>
+</div>
+
+        
+    
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        document.querySelector('.burger').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('nav-active');
+            
+        });
+    </script>
+</body>
+</html>
